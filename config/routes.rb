@@ -1,4 +1,6 @@
 ParkApp::Application.routes.draw do
+  
+  root :to => "courts#index"
   resources :check_ins
 
 
