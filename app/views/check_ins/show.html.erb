@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Court:</b>
+  <%= @check_in.court_id %>
+</p>
+
+<p>
+  <b>How many:</b>
+  <%= @check_in.how_many %>
+</p>
+
+
+<%= link_to 'Edit', edit_check_in_path(@check_in) %> |
+<%= link_to 'Back', check_ins_path %>
