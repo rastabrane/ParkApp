@@ -1,6 +1,9 @@
 class CheckInsController < ApplicationController
   # GET /check_ins
   # GET /check_ins.json
+  
+  before_filter :authenticate_user!, except: [:index, :show]
+  
   def index
     @check_ins = CheckIn.all
 
