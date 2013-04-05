@@ -19,7 +19,9 @@ class User < ActiveRecord::Base
       user.name = auth.info.name
       user.oauth_token = auth.credentials.token
       user.oauth_expires_at = Time.at(auth.credentials.expires_at)
-      user.email = auth.info.extra.email  
+      user.email = auth.info.email
+      user.image = auth.info.image 
+      user.password = 'nil' 
       user.save!
     end
   end
