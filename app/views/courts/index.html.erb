@@ -1,24 +1,19 @@
 <h1>Listing courts</h1>
 
-<table>
-  <tr>
-    <th>Players</th>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
+ 
+    <p>Players</p>
+    <p>Name</p>
+    <br />
 <% @courts.each do |court| %>
-  <tr>
-    <td><%= court.players %></td>
-    <td><%= court.name %></td>
-    <td><%= link_to 'Show', court %></td>
-    <td><%= link_to 'Edit', edit_court_path(court) %></td>
-    <td><%= link_to 'Destroy', court, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+    <p><%= court.players %></p>
+    <p><%= court.name %></p>
+    <p><%= link_to 'Show', court %></p>
+    <p><%= link_to 'Edit', edit_court_path(court) %></p>
+    <p><%= link_to 'Destroy', court, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+ 
 <% end %>
-</table>
+
 
 <br />
 
