@@ -12,9 +12,17 @@
  *= require_tree .
  */
 
+body { 
+	background: url('parkaback1.jpg');
+	}
+
+.welcome {
+	text-align: center;
+	
+}
+
 
 .facebookbutton {
-	
-	
+	text-align: center;
 }
 
