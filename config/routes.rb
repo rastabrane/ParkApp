@@ -3,11 +3,12 @@ ParkApp::Application.routes.draw do
   match 'auth/:provider/callback', to: 'sessions#create'
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
+  match 'home', to: 'welcomes#home'
   
   
   devise_for :users, :controllers => {:registrations => "registrations"}, path_names: {sign_in: "login", sign_out: "logout"}
   
-  root :to => "courts#index"
+  root :to => 'welcomes#home'
   resources :check_ins
 
 
