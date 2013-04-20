@@ -17,11 +17,14 @@ body {
 	background-position: center;
 	background-attachment: fixed;
 	font-family: 'EastMarketRegular';
-	color: white;
 	}
 	
-.welcome {
-
+.tagline p {
+	color: white;
+	text-align: center;
+	padding-top: 1em;
+	font-family: 'Lobster13Regular';
+	font-size: 1.5em;
 }
 
 .welcometext {
