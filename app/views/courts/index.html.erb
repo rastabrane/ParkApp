@@ -1,20 +1,30 @@
-<h1>Listing courts</h1>
+<div class="container">
+	<div class="courtstitle">
+		<h1>Listing Courts</h1>
+	</div>
 
-
+ 	<div class="player">
+	    <p>Potential Players</p>
+	</div>
+	<div class="name">
+	    <p>Name</p>
+	</div>
+	    <br />
+	<% @courts.each do |court| %>
+	<div class="players">
+	    <p><%= court.players %></p>
+	</div>
+	<div class="names">
+	    <p><%= court.name %></p>
+	</div>
+	    <p><%= link_to 'Show', court %></p>
+	    <p><%= link_to 'Edit', edit_court_path(court) %></p>
+	    <p><%= link_to 'Destroy', court, method: :delete, data: { confirm: 'Are you sure?' } %></p>
  
-    <p>Players</p>
-    <p>Name</p>
-    <br />
-<% @courts.each do |court| %>
-    <p><%= court.players %></p>
-    <p><%= court.name %></p>
-    <p><%= link_to 'Show', court %></p>
-    <p><%= link_to 'Edit', edit_court_path(court) %></p>
-    <p><%= link_to 'Destroy', court, method: :delete, data: { confirm: 'Are you sure?' } %></p>
- 
-<% end %>
+	<% end %>
 
 
-<br />
+	<br />
 
-<%= link_to 'New Court', new_court_path %>
+	<%= link_to 'New Court', new_court_path %>
+</div>

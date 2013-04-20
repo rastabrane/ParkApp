@@ -16,8 +16,20 @@ body {
 	background: url('parkaback.jpg');
 	background-position: center;
 	background-attachment: fixed;
-	font-family: 'EastMarketRegular';
+
 	}
+	
+body h1, body p, body a {
+	font-family: 'EastMarketRegular';
+	color: white;
+}
+
+.usernav {
+	font-family: 'EastMarketRegular';
+	color: white;
+}
+
+
 	
 .tagline p {
 	color: white;
@@ -41,6 +53,31 @@ body {
 	margin-top: 5.7em;
 }
 
+.courtstitle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-size: 3em;
+	
+}
+
+.player p {	
+	
+	float: right;
+	padding-right: 5.5em;
+	font-size: 2em;
+
+}
+
+.name p {
+	
+	padding-top: 0.7em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-size: 2em;
+	
+}
 
 
 @font-face {
@@ -61,6 +98,18 @@ body {
          url('EastMarket-webfont.woff') format('woff'),
          url('EastMarket-webfont.ttf') format('truetype'),
          url('EastMarket-webfont.svg#EastMarketRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HeydingsCommonIconsRegular';
+    src: url('heydings_icons-webfont.eot');
+    src: url('heydings_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('heydings_icons-webfont.woff') format('woff'),
+         url('heydings_icons-webfont.ttf') format('truetype'),
+         url('heydings_icons-webfont.svg#HeydingsCommonIconsRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
