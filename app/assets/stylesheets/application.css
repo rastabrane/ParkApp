@@ -13,11 +13,21 @@
  */
 
 body { 
-	background: url('parkaback1.jpg');
+	background: url('parkaback.jpg');
+	background-position: center;
+	background-attachment: fixed;
 	font-family: 'EastMarketRegular';
+	color: white;
 	}
-
+	
 .welcome {
+
+}
+
+.welcometext {
+	margin-top: 4.5em;
+	font-size: 2em;
+	color: white;
 	text-align: center;
 	font-family: 'Lobster13Regular';
 }
@@ -25,6 +35,7 @@ body {
 
 .facebookbutton {
 	text-align: center;
+	margin-top: 5.7em;
 }
 
 
