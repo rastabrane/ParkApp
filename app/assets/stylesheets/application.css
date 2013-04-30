@@ -45,6 +45,9 @@ body h1, body p, body a {
 	color: white;
 	text-align: center;
 	font-family: 'Lobster13Regular', Georgia, sans-serif;
+	-webkit-text-shadow:.1em .1em #b8b8b8;
+	-moz-text-shadow:.1em .1em #b8b8b8;
+	text-shadow: .1em .1em #b8b8b8;
 }
 
 
@@ -55,7 +58,9 @@ body h1, body p, body a {
 }
 
 .facebookbutton:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 .courtstitle {
