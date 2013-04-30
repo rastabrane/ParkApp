@@ -20,12 +20,12 @@ body {
 	}
 	
 body h1, body p, body a {
-	font-family: 'EastMarketRegular';
+	font-family: 'EastMarketRegular', Georgia, sans-serif;
 	color: white;
 }
 
 .usernav {
-	font-family: 'EastMarketRegular';
+	font-family: 'EastMarketRegular', Georgia, sans-serif;
 	color: white;
 }
 
@@ -35,7 +35,7 @@ body h1, body p, body a {
 	color: white;
 	text-align: center;
 	padding-top: 1em;
-	font-family: 'Lobster13Regular';
+	font-family: 'Lobster13Regular', Georgia, sans-serif;
 	font-size: 1.5em;
 }
 
@@ -44,13 +44,18 @@ body h1, body p, body a {
 	font-size: 2em;
 	color: white;
 	text-align: center;
-	font-family: 'Lobster13Regular';
+	font-family: 'Lobster13Regular', Georgia, sans-serif;
 }
 
 
 .facebookbutton {
 	text-align: center;
 	margin-top: 5.7em;
+
+}
+
+.facebookbutton:hover {
+	transform: scale(1.1);
 }
 
 .courtstitle {
@@ -77,6 +82,23 @@ body h1, body p, body a {
 	width: 70%;
 	font-size: 2em;
 	
+}
+
+.names {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-size: 2em;	
+	
+    
+	
+}
+
+.players {
+	float: right;
+	padding-right: 5.5em;
+	font-size: 2em;
+
 }
 
 
