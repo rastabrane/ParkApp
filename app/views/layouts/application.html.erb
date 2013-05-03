@@ -8,6 +8,7 @@
 	</head>
 	<body>
 		<div id="container">
+			<header>
 					<div id = "user_nav">
 							<% if current_user %>
 							Logged in as <strong><%= current_user.name %>
@@ -15,7 +16,7 @@
 							<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
 						<% end %>
 					</div>
-
+			</header>
 	<%= yield %>
 		<p class="notice"><%= notice %></p>
 		<p class="alert"><%= alert %></p>

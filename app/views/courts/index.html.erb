@@ -4,27 +4,25 @@
 	</div>
 
  	<div class="player">
-	    <p>Potential Players</p>
+	    <h2>Potential Players</h2>
 	</div>
 	<div class="name">
-	    <p>Name</p>
+	    <h2>Court</h2>
 	</div>
 	    <br />
 	<% @courts.each do |court| %>
 	<div class="players">
-	    <p><%= court.players %></p>
+	    <h5><%= court.players %></h5>
 	</div>
 	<div class="names">
-	    <p><%= court.name %></p>
+	    <h5><%= court.name %></h5>
 	</div>
+	<div class="links">
 	    <p><%= link_to 'Show', court %></p>
 	    <p><%= link_to 'Edit', edit_court_path(court) %></p>
 	    <p><%= link_to 'Destroy', court, method: :delete, data: { confirm: 'Are you sure?' } %></p>
- 
+ 	
 	<% end %>
-
-
 	<br />
-
 	<%= link_to 'New Court', new_court_path %>
 </div>
