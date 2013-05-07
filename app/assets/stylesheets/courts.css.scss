@@ -34,9 +34,10 @@
 }
 
 .names h5 {
-	font-size: 1.2em;	
+	font-size: 1.2em;
+	display: inline-block;	
 	border: solid 4px black;
-	padding-left: 5em;
+	padding-left: 8.5em;
 	width: 45%;
 	color: white;
 	    text-shadow:
@@ -48,10 +49,11 @@
 
 .players h5 {
 	float: right;
+	display: inline-block;
 	padding-right: 5.5em;
 	font-size: 1.2em;
 	border: solid 4px black;
-	width: 30%;
+	width: 22%;
 	color: white;
 	    text-shadow:
 	    -1px -1px 0 #000,
