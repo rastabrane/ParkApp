@@ -11,18 +11,18 @@
 	</div>
 	    <br />
 	<% @courts.each do |court| %>
-	<div class="players">
-	    <h5><%= court.players %></h5>
-	</div>
 	<div class="names">
 	    <h5><%= court.name %></h5>
 	</div>
-	<div class="links">
-	    <p><%= link_to 'Show', court %></p>
-	    <p><%= link_to 'Edit', edit_court_path(court) %></p>
-	    <p><%= link_to 'Destroy', court, method: :delete, data: { confirm: 'Are you sure?' } %></p>
- 	
-	<% end %>
+	<div class="players">
+	    <h5><%= court.players %></h5>
+	</div>
 	<br />
-	<%= link_to 'New Court', new_court_path %>
+	<!-- <div class="showcourtbutton">
+	    <%= link_to 'o', court %>
+	</div> -->
+	<% end %>
+	<div class="addcourt">
+		<%= link_to 'Add a Court', new_court_path %>
+	</div>
 </div>

@@ -5,13 +5,14 @@
 
 .container {
 	border: solid 4px black;
+	width: 95%;
 }
 
 .player h2 {
 	
 	float: right; 
 	padding-right: 5em;
-	font-size: 2em; 
+	-size: 2em; 
 	border: solid 4px black;
 	color: white;
 	    text-shadow:
@@ -24,7 +25,7 @@
 .name h2 {
 	border: solid 4px black; 
 	padding-left: 5em;
-	font-size: 2em;
+	-size: 2em;
 	color: white;
 	    text-shadow:
 	    -1px -1px 0 #000,
@@ -34,7 +35,7 @@
 }
 
 .names h5 {
-	font-size: 1.2em;
+	-size: 1.2em;
 	display: inline-block;	
 	border: solid 4px black;
 	padding-left: 8.5em;
@@ -51,9 +52,9 @@
 	float: right;
 	display: inline-block;
 	padding-right: 5.5em;
-	font-size: 1.2em;
+	-size: 1.2em;
 	border: solid 4px black;
-	width: 22%;
+	width: 20%;
 	color: white;
 	    text-shadow:
 	    -1px -1px 0 #000,
@@ -61,4 +62,16 @@
 	    -1px 1px 0 #000,
 	    1px 1px 0 #000;
 
+}
+
+.addcourt a {
+	# font-family: 'HeydingsCommonIconsRegular', Arial, sans-serif;
+	
+
+}
+
+.showcourtbutton a {
+	font-family: 'HeydingsCommonIconsRegular', Arial, sans-serif;
+	font-size: 2em;
+	border: solid 4px black;
 }

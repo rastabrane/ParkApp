@@ -13,11 +13,10 @@
  */
 
 body { 
-	background: url('parkaback.jpg') no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-height: 100%;
-	background-width: 100%;
+	background: url('parkaback.jpg') center no-repeat;
+	background-position: fixed;
+	background-height: 90%;
+	background-width: 90%;
 
 	}
 	
